@@ -1,3 +1,9 @@
-p {
-    color:red;
+html{
+    background-color: greenyellow;
+}
+.titre{
+    text-align: center;
+    background-color: gray;
+    border-style: double;
+    border-radius: 15px;
 }
