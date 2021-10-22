@@ -1,9 +1,17 @@
 html{
-    background-color: greenyellow;
+    background-color: grey;
+}
+.logo {
+    display: flex;
+    width: 75px;
+    height: 150px;
 }
 .titre{
     text-align: center;
     background-color: gray;
     border-style: double;
     border-radius: 15px;
+    font-size: 3em;
+    -webkit-box-shadow: 5px 5px 28px 15px rgba(0,0,0,0.57); 
+    box-shadow: 5px 5px 28px 15px rgba(0,0,0,0.57);
 }
