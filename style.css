@@ -1,18 +1,17 @@
-html{
+html,body{
+    margin: 0%;
+    padding: 0%;
     background-color: grey;
-}
-header{
-    display: flex;
-    background-image: url();
-    background-repeat: no-repeat;
-    background-size: cover;
-    b
+    -webkit-box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56); 
+    box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56);
 }
 .logo {
-    display: inherit;
-    width: auto;
-    height: 150px;
-
+    display: flex;
+    margin-left: 48.9%;
+    width: 75px;
+    height: 100px;
+    justify-items: center;
+    justify-content: center;
 }
 .titre{
     text-align: center;
@@ -20,6 +19,6 @@ header{
     border-style: double;
     border-radius: 15px;
     font-size: 3em;
-    -webkit-box-shadow: 5px 5px 28px 15px rgba(0,0,0,0.57); 
-    box-shadow: 5px 5px 28px 15px rgba(0,0,0,0.57);
+    -webkit-box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56); 
+    box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56);
 }
