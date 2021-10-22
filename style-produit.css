@@ -67,8 +67,6 @@ body{
 .section2{
     display: flex;
     flex-direction:column;
-
- 
 }
 
 .banniere{
@@ -76,3 +74,10 @@ body{
     height: 500px;
 }
 
+.descri{
+    font-size: 32px;
+}
+
+.avis-cli{
+    font-size: 30px;
+}
