@@ -1,10 +1,18 @@
 html{
     background-color: grey;
 }
-.logo {
+header{
     display: flex;
-    width: 75px;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover;
+    b
+}
+.logo {
+    display: inherit;
+    width: auto;
     height: 150px;
+
 }
 .titre{
     text-align: center;
