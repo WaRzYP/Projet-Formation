@@ -12,8 +12,10 @@ html,body{
 /*dans le header*/
 .header{
     display: flex;
+    justify-content: space-between;
 }
 .logo{
+    display: flex;
     width: 200px;
     height: 150px;
 }
