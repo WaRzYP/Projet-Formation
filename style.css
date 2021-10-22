@@ -5,6 +5,7 @@ html,body{
     -webkit-box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56); 
     box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56);
 }
+/*dans le header*/
 .logo {
     display: flex;
     margin-left: 48.9%;
@@ -22,3 +23,4 @@ html,body{
     -webkit-box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56); 
     box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56);
 }
+/*-------------------------------------------*/
