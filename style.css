@@ -1,26 +1,50 @@
+/* Fond du site */
 html,body{
     margin: 0%;
     padding: 0%;
-    background-color: grey;
-    -webkit-box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56); 
-    box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56);
+    background: rgb(46,106,106);
+    background: -moz-linear-gradient(180deg, rgba(46,106,106,1) 0%, rgba(9,23,23,0) 76%);
+    background: -webkit-linear-gradient(180deg, rgba(46,106,106,1) 0%, rgba(9,23,23,0) 76%);
+    background: linear-gradient(180deg, rgba(46,106,106,1) 0%, rgba(9,23,23,0) 76%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2e6a6a",endColorstr="#091717",GradientType=1);
+    height: 100%;
 }
 /*dans le header*/
-.logo {
+.header{
     display: flex;
-    margin-left: 48.9%;
-    width: 75px;
-    height: 100px;
-    justify-items: center;
-    justify-content: center;
 }
-.titre{
+.logo{
+    width: 200px;
+    height: 150px;
+}
+/*--------------fin----------------------------*/
+/*---------------- Menu ( lien ) --------------------*/
+.menu{
+    display: flex;
     text-align: center;
-    background-color: gray;
-    border-style: double;
-    border-radius: 15px;
-    font-size: 3em;
-    -webkit-box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56); 
-    box-shadow: inset 5px 5px 28px 14px rgba(0,0,0,0.56);
+    justify-content: space-around;
+    background-color: grey;
 }
-/*-------------------------------------------*/
+.lien1{
+    text-decoration: none;
+    font-size:3em;
+    color: white;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+/*------------fin------------------------------*/
+.mail{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.mail1{
+    margin-top: 450px;
+    color: black;
+    text-align: center;
+    font-size: 3em;
+    text-decoration: none;
+    border-style: solid;
+}
