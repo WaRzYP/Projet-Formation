@@ -1,6 +1,7 @@
-body, html {
-    margin: 0;
-    padding: 0;
+/* Fond du site */
+html,body{
+    margin: 0%;
+    padding: 0%;
     background: rgb(46,106,106);
     background: -moz-linear-gradient(180deg, rgba(46,106,106,1) 0%, rgba(9,23,23,0) 76%);
     background: -webkit-linear-gradient(180deg, rgba(46,106,106,1) 0%, rgba(9,23,23,0) 76%);
@@ -8,19 +9,42 @@ body, html {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2e6a6a",endColorstr="#091717",GradientType=1);
     height: 100%;
 }
-
-header {
+/*dans le header*/
+.header{
     display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    margin-left:50px ;
-    margin-right:50px ;
 }
-
-.section1 {
+.logo{
     display: flex;
+    width: 200px;
+    height: 150px;
+}
+/*--------------fin----------------------------*/
+/*---------------- Menu ( lien ) --------------------*/
+.menu{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    background-color: grey;
+}
+.onglet{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.lien1{
+    text-decoration: none;
+    font-size:3em;
+    color: white;
+}
+.lien3{
+    text-decoration: none;
+    font-size: 3em;
+    color: yellow;
 }
 
-.logo {
-    
+a:hover{
+    background-color: black;
+    color: white;
 }
+/*------------fin-----------*/
