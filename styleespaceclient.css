@@ -8,3 +8,6 @@ html,body{
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2e6a6a",endColorstr="#091717",GradientType=1);
     height: 100%;
 }
+.login-img{
+    width: 115px;
+    height: 115px;}
